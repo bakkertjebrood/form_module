@@ -1,0 +1,113 @@
+h1, h2 {
+    display: block;
+}
+
+.heading-page-title{
+    color: #00B332;
+}
+
+.heading-page-subtitle{
+    color: #0050F0;
+}
+
+.lightblue{
+    color: #E5EDFD;
+}
+
+.question-title{
+    font-weight: bold;
+}
+
+.progress-bar,.progress{
+    height: 3px;
+}
+
+.list-group-item {
+  user-select: none;
+}
+
+.list-group input[type="checkbox"] {
+  display: none;
+}
+
+.list-group input[type="checkbox"] + .list-group-item {
+  cursor: pointer;
+}
+
+.list-group input[type="checkbox"] + .list-group-item:before {
+  content: "\2713";
+  color: transparent;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.list-group input[type="checkbox"]:checked + .list-group-item {
+  background-color: #E5EDFD;
+  /* color: #FFF; */
+}
+
+.list-group input[type="checkbox"]:checked + .list-group-item:before {
+  color: inherit;
+}
+
+.list-group input[type="radio"] {
+  display: none;
+}
+
+.list-group input[type="radio"] + .list-group-item {
+  cursor: pointer;
+}
+
+.list-group input[type="radio"] + .list-group-item:before {
+  /* content: "\2022"; */
+  color: transparent;
+  font-weight: bold;
+  /* margin-right: 1em; */
+}
+
+.list-group input[type="radio"]:checked + .list-group-item {
+  background-color: #E5EDFD;
+  /* color: #FFF; */
+}
+
+.list-group input[type="radio"]:checked + .list-group-item:before {
+  color: inherit;
+}
+
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Blue */
+.primary {
+  border-color: #0050F0;
+  color: #0050F0;
+}
+
+.primary:hover {
+  background-color: #0050F0;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

@@ -1,0 +1,91 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "description": "Vraag 1",
+            "answer_id": 0,
+            "options": [
+                {
+                    "id": 1,
+                    "description": "Antwoord A",
+                    "question_id": 1
+                },
+                {
+                    "id": 2,
+                    "description": "Antwoord B",
+                    "question_id": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "description": "Vraag 2",
+            "answer_id": 0,
+            "options": [
+                {
+                    "id": 3,
+                    "description": "Antwoord A",
+                    "question_id": 2
+                },
+                {
+                    "id": 4,
+                    "description": "Antwoord B",
+                    "question_id": 2
+                },
+                {
+                    "id": 5,
+                    "description": "Antwoord C",
+                    "question_id": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "description": "Vraag 3",
+            "answer_id": 0,
+            "options": [
+                {
+                    "id": 6,
+                    "description": "Antwoord A",
+                    "question_id": 3
+                },
+                {
+                    "id": 7,
+                    "description": "Antwoord B",
+                    "question_id": 3,
+                    "weight": 2
+                },
+                {
+                    "id": 8,
+                    "description": "Antwoord C",
+                    "question_id": 3
+                },
+                {
+                    "id": 9,
+                    "description": "Antwoord D",
+                    "question_id": 3
+                }
+            ]
+        }
+    ],
+    "answers": [
+        {
+            "id": 1,
+            "question_id": 1,
+            "answer_id": 2,
+            "weight": 1
+        },
+        {
+            "id": 2,
+            "question_id": 2,
+            "answer_id": 4,
+            "weight": 2
+        },
+        {
+            "id": 3,
+            "question_id": 3,
+            "answer_id": 8,
+            "weight": 3
+        }
+    ]
+}
