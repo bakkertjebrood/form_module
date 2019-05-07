@@ -4,7 +4,7 @@ export class Question {
     id: number;
     description: string;
     answer_id: number;
-    radio: boolean;
+    remark: string;
     number: number;
     active: boolean;
     options: Option[];

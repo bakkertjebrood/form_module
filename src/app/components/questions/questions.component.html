@@ -43,7 +43,7 @@
         <div class="col-12 mt-5">
             <h3>Uw score is: {{myScore.weight}}</h3>
             <p>De minimaal vereiste score voor deze toets is {{minimal_weight}}.</p>
-            <p>U had <strong>{{myScore.count}}</strong> vragen van de <strong>{{questions.length}}</strong> goed. </p>
+            <p>U had <strong>{{myScore.count}}</strong> van de <strong>{{questions.length}}</strong> vragen goed. </p>
         </div>
     </div>
 
@@ -54,10 +54,13 @@
                 <fa name="angle-left"></fa>
                 Terug
             </button>
+
+            <ng-container *ngIf="!summary">
             <button (click)="nextQuestion()" [disabled]="!isAnswerred" class="btn primary float-right" type="button" name="next">
                 Volgende
                 <fa name="angle-right"></fa>
             </button>
+            </ng-container>
         </div>
     </div>
 
